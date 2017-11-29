@@ -1,10 +1,12 @@
 package e.utente3academy.restdipendenti;
 
+import java.io.Serializable;
+
 /**
  * Created by utente3.academy on 28-Nov-17.
  */
 
-public class Dipendente {
+public class Dipendente implements Serializable{
 
     private int matricola;
     private String nome;
